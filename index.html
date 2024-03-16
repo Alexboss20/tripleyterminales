@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <section class="hero">
+            <div class="cartel">
+                <h2 class="texto_principal">TRIPLE <br> Y <br> TERMINALES</h2>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <div class="foco"></div>
+                <button type="submit" id="btnModal" class="btn_ticket">JUGAR</button>
+                    <dialog id="modalTicket">
+                        <table id="lista_ticket">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Horas</th>
+                                    <th>Series</th>
+                                    <th>Cantidad</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <button type="button" id="btnCerrarTicket" class="cerraTicket">X</button>
+                        <a href="#" id="vaciar_ticket" class="btn_vaciar">Vaciar</a>
+                        <button type="submit" id="btn_data">Enviar</button>
+                    </dialog>
+                </div>
+            </div>
+        </section>
+        <section id="lista_casas" class="casas_container">
+            <!-- CHANCE -->
+            <div class="card_container">
+                <div class="card">
+                    <div class="card_imagen_chance">
+                        <img src="./assets/logoChanceenlinea.5dd8d54f.png" alt="triple chance">
+                    </div>
+                <div class="card_apuesta">
+                    <div class="card_horas">
+                        <span>HORARIOS</span>
+                        <input class="check_h" type="checkbox" name="hora" value="1:00"> 1:00
+                        <input class="check_h" type="checkbox" name="hora" value="4:30"> 4:30
+                        <input class="check_h" type="checkbox" name="hora" value="7:00"> 7:00
+                        <input class="check_h" type="checkbox" name="hora" value="12:00"> 12:00
+                    </div>
+                    <div class="card_series">
+                        <span>SERIES</span>
+                        <div class="series">
+                            <div class="serie_a">
+                                <div class="check">
+                                    <input  type="checkbox" name="serie" value="Serie A">
+                                    <p>Serie A</p>
+                                </div>
+                            </div>
+                            <div class="serie_b">
+                                <div class="check">
+                                    <input  type="checkbox" name="serie" value="Serie B">
+                                    <p>Serie B</p>
+                                </div>
+                            </div>
+                            <div class="serie_c">
+                                <div class="check">
+                                    <input  type="checkbox" name="serie" value="Serie C">
+                                    <p>Serie C</p>
+                                </div>
+                            </div>
+                            <div class="serie_d">
+                                <div class="check">
+                                    <input  type="checkbox" name="serie" value="Serie D">
+                                    <p>Serie D</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="number">
+                            <input  type="number" name="numero" placeholder="000">
+                        </div>
+                        <button type="submit" class="btnModalSignos">Signos</button>
+                        <div class="listaSignos">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" class="aries" value="aries"><label for="aries">Aries</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="tauro" value="tauro"><label for="tauro">Tauro</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="geminis" value="geminis"><label for="geminis">Géminis</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cancer" value="cancer"><label for="cancer">Cáncer</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="leo" value="leo"><label for="leo">Leo</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="virgo" value="virgo"><label for="virgo">Virgo</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="libra" value="libra"><label for="libra">Libra</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="escorpion" value="escorpion"><label for="escorpion">Escorpión</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="sagitario" value="sagitario"><label for="sagitario">Sagitario</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="capricornio" value="capricornio"><label for="capricornio">Capricornio</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="acuario" value="acuario"><label for="acuario">Acuario</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="piscis" value="piscis"><label for="piscis">Piscis</label>
+                                </li>
+                            </ul>
+                            <button type="button" class="btnCerrarSignos">X</button>
+                        </div>
+                        <div class="monto">
+                            <input type="number" placeholder="$apuesta">
+                        </div>
+                    </div>
+                    <button type="submit" class="btnAgregar">Agregar</button>
+                </div>
+                </div>
+            </div>
+            <!-- triple Zulia -->
+            <div class="card_container">
+                <div class="card">
+                    <div class="card_imagen_zulia">
+                        <img src="./assets/triplezulia.jpg" alt="triple Zulia">
+                    </div>
+                <div class="card_apuesta">
+                    <div class="card_horas">
+                        <span>HORARIOS</span>
+                        <input class="check_h" type="checkbox" name="hora" value="12:45"> 12:45
+                        <input class="check_h" type="checkbox" name="hora" value="4:45"> 4:45
+                        <input class="check_h" type="checkbox" name="hora" value="7:05"> 7:05
+                        <input class="check_h" type="checkbox" name="hora" value="11:00"> 11:00
+                    </div>
+                    <div class="card_series">
+                        <span>SERIES</span>
+                        <div class="series">
+                            <div class="serie_a">
+                                <div class="check">
+                                    <input  type="checkbox" name="serie" value="Serie A">
+                                    <p>Serie A</p>
+                                </div>
+                            </div>
+                            <div class="serie_b">
+                                <div class="check">
+                                    <input  type="checkbox" name="serie" value="Serie B">
+                                    <p>Serie B</p>
+                                </div>
+                            </div>
+                            <div class="serie_c">
+                                <div class="check">
+                                    <input  type="checkbox" name="serie" value="Serie C">
+                                    <p>Serie C</p>
+                                </div>
+                            </div>
+                            <div class="serie_d">
+                                <div class="check">
+                                    <input  type="checkbox" name="serie" value="Serie D">
+                                    <p>Serie D</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="number">
+                            <input  type="number" name="numero" placeholder="000">
+                        </div>
+                        <button type="submit" class="btnModalSignos">Signos</button>
+                        <div class="listaSignos">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" class="aries" value="aries"><label for="aries">Aries</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="tauro" value="tauro"><label for="tauro">Tauro</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="geminis" value="geminis"><label for="geminis">Géminis</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cancer" value="cancer"><label for="cancer">Cáncer</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="leo" value="leo"><label for="leo">Leo</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="virgo" value="virgo"><label for="virgo">Virgo</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="libra" value="libra"><label for="libra">Libra</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="escorpion" value="escorpion"><label for="escorpion">Escorpión</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="sagitario" value="sagitario"><label for="sagitario">Sagitario</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="capricornio" value="capricornio"><label for="capricornio">Capricornio</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="acuario" value="acuario"><label for="acuario">Acuario</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="piscis" value="piscis"><label for="piscis">Piscis</label>
+                                </li>
+                            </ul>
+                            <button type="button" class="btnCerrarSignos">X</button>
+                        </div>
+                        <div class="monto">
+                            <input type="number" placeholder="$apuesta">
+                        </div>
+                    </div>
+                    <button type="submit" class="btnAgregar">Agregar</button>
+                </div>
+            </div>
+            </div>
+        </section>
+    <script src="index.js"></script>
+</body>
+</html>
