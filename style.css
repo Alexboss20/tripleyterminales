@@ -342,7 +342,7 @@ margin-top: 10px;
     overflow: hidden;
 
 }
-.listaSignos {
+.listaSignosChance {
     display: none;
     flex-direction: column;
     align-items: start; 
@@ -359,7 +359,24 @@ margin-top: 10px;
     padding: 20px;
     z-index: 1000;
 }
-.listaSignos > ul{
+.listaSignosZulia {
+    display: none;
+    flex-direction: column;
+    align-items: start; 
+    position:absolute;
+    color: black;
+    width: 250px;
+    height: 250px; 
+    top: 50%; 
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    z-index: 1000;
+}
+.listaSignosChance > ul{
     display: flex;
     padding: 0;
     list-style: none;
@@ -372,14 +389,33 @@ margin-top: 10px;
     row-gap: 16px;
 }
 
-.listaSignos > ul li{
+.listaSignosChance > ul li{
     margin: 0;
 }
 
-.listaSignos > ul li input{
+.listaSignosChance > ul li input{
     margin-right: 5px;
 }
+.listaSignosZulia > ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin-left: 12px;
+    width: 100%;
+    height: 100%;
+    align-content: space-around;
+    align-items: start;
+    flex-flow: column wrap;
+    row-gap: 16px;
+}
 
+.listaSignosZulia > ul li{
+    margin: 0;
+}
+
+.listaSignosZulia > ul li input{
+    margin-right: 5px;
+}
 
 
 .btnAgregar {
@@ -423,7 +459,7 @@ button:hover {
 }
 @media (min-width: 960px) {
     body{
-        transform: scale(1.7);
+        transform: scale(1.3);
         font-size:xx-large;
     }
     .hero{

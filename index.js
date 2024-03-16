@@ -4,9 +4,12 @@
         const ticket = document.querySelector('#modalTicket');
         const btnCerrarTicket = document.querySelector('#btnCerrarTicket');
     // variables de caja signos
-        const btnModalSignos = document.querySelector('.btnModalSignos');
-        const btnCerrarSignos = document.querySelector('.btnCerrarSignos');
-        const listaSignos = document.querySelector('.listaSignos');
+        const btnSignosChance = document.querySelector('.btnSignosChance');
+        const btnSignosZulia = document.querySelector('.btnSignosZulia');
+        const btnCerrarChance = document.querySelector('.btnCerrarChance');
+        const btnCerrarZulia = document.querySelector('.btnCerrarZulia');
+        const listaSignosChance = document.querySelector('.listaSignosChance');
+        const listaSignosZulia = document.querySelector('.listaSignosZulia');
 
     
 // eventos
@@ -18,11 +21,21 @@
             ticket.close();
         });
     // Evento caja signos
-        btnModalSignos.addEventListener('click', () => {
-            listaSignos.style.display = 'flex';
+    btnSignosChance.addEventListener('click', () => {
+        // Alternar la visualización de listaSignosChance
+        listaSignosChance.style.display = listaSignosChance.style.display === 'flex' ? 'none' : 'flex';
         });
-        btnCerrarSignos.addEventListener('click', () => {
-            listaSignos.style.display = 'none';
+        btnCerrarChance.addEventListener('click', () => {
+            // Ocultar la lista de signos Chance
+            listaSignosChance.style.display = 'none';
+        });
+    btnSignosZulia.addEventListener('click', () => {
+        // Alternar la visualización de listaSignosZulia
+        listaSignosZulia.style.display = listaSignosZulia.style.display === 'flex' ?  'none' :'flex';
+        });
+        btnCerrarZulia.addEventListener('click', () => {
+            // Ocultar la lista de signos Chance
+            listaSignosZulia.style.display = 'none';
         });
     
     
