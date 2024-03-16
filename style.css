@@ -454,7 +454,7 @@ button:hover {
         padding-top: 50px;
     }
     .cartel {
-        transform: rotate(45deg) scale(1.0);
+        transform: rotate(45deg);
     }
 }
 @media (min-width: 960px) {
@@ -463,13 +463,13 @@ button:hover {
         font-size:xx-large;
     }
     .hero{
-        padding-top: 220px;
+        padding-top: 150px;
     }
     .cartel {
-        transform: rotate(45deg) scale(1.0);
+        transform: rotate(45deg);
     }
     #modalTicket{
-        min-height: 700px;
+        min-height: 500px;
         min-width: 600px;
     }
     .btn_vaciar{
